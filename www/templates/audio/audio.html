@@ -1,9 +1,28 @@
-<ion-view view-title="Tracks">
+<ion-view view-title="StarTracks">
   <ion-content>
     <ion-list>
       <img id='bg' src="img/cat.png">
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+      <h3> Audio Clips</h3>
+      <div class="button-bar">
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/Kirk_CaptainsLogSupplemental.mp3"></audio>Captain Kirk</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/Scotty_ayesir.mp3"></audio>Ayesir</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/Scotty_upurshaft.mp3"></audio>Upurshaft</button>
+      </div>
+      <div class="button-bar">
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/Spock_Livelong.mp3"></audio>Live Long</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tng-computer-programcomplete.mp3"></audio>Program</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tng-data-beinghailed.mp3"></audio>Hailed</button>
+      </div>
+      <div class="button-bar">
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tng-picard-engage.mp3"></audio>Engage</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/Spock_Illogical.mp3"></audio>Illogical</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tng-picard-makeitso.mp3"></audio>Make It</button>
+      </div>
+      <div class="button-bar">
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tng-worf-incomingmessage.mp3"></audio>Incoming</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tos-photon-torpedo-1.mp3"></audio>Torpedo</button>
+        <button class="button" onclick="this.firstChild.play()"><audio src="audio/tos-transporter.mp3"></audio>Transporter</button>
+      </div>
       </ion-item>
     </ion-list>
   </ion-content>
