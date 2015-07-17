@@ -2,8 +2,10 @@
   <ion-content>
     <ion-list>
       <h1> Audio </h1>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+        <button onclick="this.firstChild.play()"><audio src="audio/Kirk_CaptainsLogSupplemental.mp3"></audio>Captain Kirk</button>
+        <button onclick="this.firstChild.play()"><audio src="/audio/Scotty_ayesir.mp3"></audio>Ayesir</button>
+        <button onclick="this.firstChild.play()"><audio src="/audio/Scotty_upurshaft.mp3"></audio>Upurshaft</button>
+        <button onclick="this.firstChild.play()"><audio src="/audio/Spock_Illogical.mp3"></audio>Illogical</button>
       </ion-item>
     </ion-list>
   </ion-content>
