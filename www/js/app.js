@@ -69,5 +69,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'sound.audio'])
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/audio/audio');
+  $urlRouterProvider.otherwise('/app/audio');
 });
