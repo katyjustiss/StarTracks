@@ -2,10 +2,10 @@
 <widget id="com.ionicframework.startracks127138" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>StarTracks</name>
   <description>
-        An Ionic Framework and Cordova project.
+        A soundboard full of awesome sounds.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="bcpaff@gmail.com, jybjones@gmail.com, katy.justiss@gmail" href="http://ionicframework.com/">
+      Brien Pafford, Jennifer Jones, Katy Justiss
     </author>
   <content src="index.html"/>
   <access origin="*"/>
